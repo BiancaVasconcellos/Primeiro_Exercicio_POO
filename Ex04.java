@@ -1,3 +1,6 @@
+/*4. Note que a classe de teste deixou de funcionar após a adição do construtor. Faça os
+ajustes necessários para que ela volte a funcionar.*/
+
 public class Ex04 {
     
         public static void main(String[] args) {
