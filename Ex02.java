@@ -10,14 +10,14 @@ public class Ex02 {
 
         System.out.printf("O primeiro carro é da cor: ");
         String cor = scanner.nextLine();
-        System.out.println("O segundo carro é do tipo: ");
+        System.out.printf("O primeiro carro é do tipo: ");
         String tipo = scanner.nextLine();
         carro1.setCor(cor);
         carro2.setTipo(tipo);
 
-        System.out.println("O segundo carro é da cor: ");
+        System.out.printf("O segundo carro é da cor: ");
         String cor2 = scanner.nextLine();
-        System.out.println("O segundo carro é do tipo");
+        System.out.printf("O segundo carro é do tipo: ");
         String tipo2 = scanner.nextLine();
         carro1.setCor(cor2);
         carro2.setTipo(tipo2);
@@ -28,8 +28,14 @@ public class Ex02 {
         carro2.exibirMensagem();
         carro2.CameraRe();
 
-        scanner.close();
+        carro1.getCor();
+        carro1.getTipo();
 
+        carro2.getCor();
+        carro2.getTipo();
+
+
+        scanner.close();
 
        
 

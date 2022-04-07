@@ -2,28 +2,28 @@ public class Ex03
  {
     private String cor;
     private String tipo;
-
+//construtor
     public Ex03 (String cor, String tipo){
         this.cor = cor;
         this.tipo = tipo;
     }
     
     public String getCor() {
-        return this.cor;
+        return cor;
     }
-    public void setCor(String c) {
-        this.cor = c;
+    public void setCor(String cor) {
+        this.cor = cor;
     }
     
     public String getTipo(){
-        return this.tipo;
+        return tipo;
     }
-    public void setTipo(String t){
-        this.tipo = t;
+    public void setTipo(String tipo){
+        this.tipo = tipo;
         
     }
 
- // Métodos   
+
     public void CameraFrontal (){
           System.out.printf("\nSensor Frontal Ativado\n");
     }
@@ -32,7 +32,7 @@ public class Ex03
     }
 
     public void exibirMensagem (){
-        System.out.printf ("\nCarro \nCor: %s \nTipo: %s", this.getCor(), this.getTipo());
+        System.out.printf ("\nCarro \n Cor: %s \n Tipo: %s", this.cor, this.tipo);
     }
 
     
