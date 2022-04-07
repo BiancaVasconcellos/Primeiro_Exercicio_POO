@@ -40,7 +40,6 @@ public class Ex02 {
         carro2.getCor();
         carro2.getTipo();
 
-
         scanner.close();
 
        
