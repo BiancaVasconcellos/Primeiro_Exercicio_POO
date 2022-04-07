@@ -5,6 +5,7 @@ public class Ex03
  {
     private String cor;
     private String tipo;
+
 //construtor 
     public Ex03 (String cor, String tipo){
         this.cor = cor;
@@ -25,7 +26,6 @@ public class Ex03
         this.tipo = tipo;
         
     }
-
 
     public void CameraFrontal (){
           System.out.printf("\nEstacione, sensor frontal ativado\n");
